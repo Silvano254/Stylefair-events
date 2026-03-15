@@ -1,0 +1,43 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "frontend",
+  "framework": "static",
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 30
+    }
+  },
+  "env": [
+    {
+      "key": "NODEMAILER_USER",
+      "value": "stylefairevents@gmail.com",
+      "type": "secret"
+    },
+    {
+      "key": "NODEMAILER_PASS",
+      "value": "@NODEMAILER_PASS",
+      "type": "secret"
+    },
+    {
+      "key": "ALLOWED_ORIGINS",
+      "value": "@ALLOWED_ORIGINS",
+      "type": "secret"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}

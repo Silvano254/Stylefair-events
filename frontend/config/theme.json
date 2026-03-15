@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "name": "Style Fair Events & Decor Hub",
+    "tagline": "Elegance Redefined"
+  },
+  "colors": {
+    "primary": "#D4AF37",
+    "accent": "#2D5016",
+    "light": "#F5F1E8",
+    "dark": "#1A1A1A",
+    "gold": "#D4AF37",
+    "green": "#2D5016"
+  },
+  "fonts": {
+    "heading": "'Playfair Display', serif",
+    "subheading": "'Montserrat', sans-serif",
+    "body": "'Lato', sans-serif"
+  },
+  "contact": {
+    "phone": ["0799799345", "0703747508"],
+    "email": "stylefairevents@gmail.com",
+    "pobox": "P.O Box 1875-00100",
+    "whatsapp": "0799799345"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/stylefairevents?igsh=MW4zcnVibmF3eHFyaw==",
+    "tiktok": "https://www.tiktok.com/@stylefairevents?_r=1&_t=ZS-94f1DxPYgy5"
+  }
+}

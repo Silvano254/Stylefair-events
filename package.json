@@ -1,0 +1,26 @@
+{
+  "name": "stylefair-events",
+  "version": "1.0.0",
+  "description": "Style Fair Events & Decor Hub - Luxury Event Planning Website",
+  "main": "backend/api/inquiry.js",
+  "scripts": {
+    "start": "vercel dev",
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "events",
+    "decor",
+    "weddings",
+    "luxury"
+  ],
+  "author": "Style Fair Events",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}

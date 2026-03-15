@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Style Fair Events & Decor Hub. Contact us for inquiries, bookings, and consultation on your upcoming event.">
+  <meta name="keywords" content="contact us, event inquiry, booking, consultation, event coordination, get in touch, support">
+  <title>Contact Us - Style Fair Events & Decor Hub</title>
+  <link rel="icon" type="image/jpeg" href="../assets/images/logo.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <!-- ============================================
+       HEADER & NAVIGATION
+       ============================================ -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Style Fair Events & Decor Hub</div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       PAGE HEADER
+       ============================================ -->
+  <section class="hero" style="padding: 3rem 2rem; background-image: url('../assets/images/corporate3.jpeg');">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Get In Touch</h1>
+      <p class="hero-subtitle">We'd Love to Hear From You</p>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT CONTENT
+       ============================================ -->
+  <section style="max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;">
+    <div class="contact-grid" style="gap: 3rem; align-items: start;">
+      <!-- Contact Information -->
+      <div data-aos="fade-right">
+        <h2 style="margin-bottom: 1.5rem;">Contact Information</h2>
+        <div class="accent-line"></div>
+        
+        <div style="margin: 2rem 0;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;display: flex; align-items: center;">
+            Phone
+          </h4>
+          <p><a href="tel:0799799345">0799 799 345</a></p>
+          <p><a href="tel:0703747508">0703 747 508</a></p>
+        </div>
+
+        <div style="margin: 2rem 0;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem; display: flex; align-items: center;">
+            Email
+          </h4>
+          <p><a href="mailto:stylefairevents@gmail.com">stylefairevents@gmail.com</a></p>
+        </div>
+
+        <div style="margin: 2rem 0;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem; display: flex; align-items: center;">
+            Address
+          </h4>
+          <p>P.O Box 1875-00100<br>Kenya</p>
+        </div>
+
+        <div style="margin: 2.5rem 0; padding-top: 2rem; border-top: 1px solid #E0D5C7;">
+          <h4 style="color: #D4AF37; margin-bottom: 1rem;">Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/stylefairevents?igsh=MW4zcnVibmF3eHFyaw==" target="_blank" rel="noopener" title="Instagram" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@stylefairevents?_r=1&_t=ZS-94f1DxPYgy5" target="_blank" rel="noopener" title="TikTok" class="social-icon"><i class="fab fa-tiktok"></i> TikTok</a>
+          </div>
+        </div>
+
+        <div style="margin-top: 2.5rem; background: #F5F1E8; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #2D5016; margin-bottom: 0.5rem;">WhatsApp Chat</h4>
+          <p style="color: var(--gray);">Send us a message on WhatsApp for quick responses!</p>
+          <a href="https://wa.me/254799799345?text=Hi%20Style%20Fair%20Events,%20I%20have%20an%20inquiry." target="_blank" class="btn btn-primary" style="margin-top: 1rem;">Chat on WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div data-aos="fade-left">
+        <h2 style="margin-bottom: 1.5rem;">Send Us a Message</h2>
+        <div class="form-container">
+          <form id="inquiryForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Your phone number">
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Interest *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service...</option>
+                <option value="Wedding Decoration">Wedding Decoration</option>
+                <option value="Birthday Party">Birthday Party</option>
+                <option value="Corporate Event">Corporate Event</option>
+                <option value="Engagement Party">Engagement Party</option>
+                <option value="Professional Styling">Professional Styling</option>
+                <option value="Event Planning">Event Planning</option>
+                <option value="Custom Package">Custom Package</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your event requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">Send Inquiry</button>
+            
+            <div id="formMessage" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FAQ SECTION
+       ============================================ -->
+  <section style="background: #F5F1E8; padding: 4rem 2rem;">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <h2 style="text-align: center; margin-bottom: 0.5rem;">Frequently Asked Questions</h2>
+      <div class="accent-line"></div>
+
+      <div style="margin-top: 2rem;">
+        <div data-aos="fade-up" style="margin-bottom: 2rem; background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">How far in advance should I book?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">We recommend booking 4-6 weeks in advance for most events. Rush bookings can be accommodated depending on availability.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100" style="margin-bottom: 2rem; background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">Do you offer customized packages?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">Absolutely! We create tailored packages for every client's unique needs and budget. Contact us for a custom quote.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="200" style="margin-bottom: 2rem; background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">What is your cancellation policy?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">Please contact us directly to discuss our flexible cancellation and rescheduling policies.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 2rem; background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">Can you work with my venue?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">Yes! We work with venues across Kenya. We coordinate with your venue to ensure seamless event execution.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" style="margin-bottom: 2rem; background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">How far in advance should I book?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">Payment terms are flexible and discussed during consultation. We typically require a deposit to secure your date.</p>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="500" style="background: white; padding: 1.5rem; border-radius: 4px; border-left: 4px solid #D4AF37;">
+          <h4 style="color: #D4AF37; margin-bottom: 0.5rem;">Do you handle setup and breakdown?</h4>
+          <p style="color: var(--gray); margin-bottom: 0;">Yes! Our packages include setup and breakdown. Additional staff can be arranged for a fee if needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       RESPONSE TIME CTA
+       ============================================ -->
+  <section style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, #D4AF37 0%, #2D5016 100%); color: white;">
+    <h2 style="color: white; margin-bottom: 1rem;">We Respond Quickly</h2>
+    <p style="margin-bottom: 2rem;">We typically respond to inquiries within 24 hours. Your event deserves our full attention.</p>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Style Fair Events</h4>
+        <p>Premium event decoration and styling solutions for unforgettable celebrations.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/stylefairevents?igsh=MW4zcnVibmF3eHFyaw==" target="_blank" rel="noopener" title="Instagram">Instagram</a>
+          <a href="https://www.tiktok.com/@stylefairevents?_r=1&_t=ZS-94f1DxPYgy5" target="_blank" rel="noopener" title="TikTok">TikTok</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p>Phone: <a href="tel:0799799345">0799 799 345</a></p>
+        <p>Phone: <a href="tel:0703747508">0703 747 508</a></p>
+        <p>Email: <a href="mailto:stylefairevents@gmail.com">stylefairevents@gmail.com</a></p>
+        <p>Address: P.O Box 1875-00100</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Style Fair Events & Decor Hub. All rights reserved. | Elegance Redefined</p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       WHATSAPP FLOATING BUTTON
+       ============================================ -->
+  <a href="https://wa.me/254799799345?text=Hi%20Style%20Fair%20Events,%20I%20have%20an%20inquiry." class="whatsapp-button" title="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+    <span>Chat</span>
+  </a>
+
+  <!-- SCRIPTS -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
