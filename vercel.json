@@ -1,5 +1,13 @@
 {
-  "outputDirectory": "frontend/pages",
+  "outputDirectory": "frontend",
+  "rewrites": [
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/about", "destination": "/pages/about.html" },
+    { "source": "/services", "destination": "/pages/services.html" },
+    { "source": "/gallery", "destination": "/pages/gallery.html" },
+    { "source": "/packages", "destination": "/pages/packages.html" },
+    { "source": "/contact", "destination": "/pages/contact.html" }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
