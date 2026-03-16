@@ -1,5 +1,5 @@
 {
-  "outputDirectory": "frontend",
+  "outputDirectory": "frontend/pages",
   "headers": [
     {
       "source": "/api/(.*)",
