@@ -2,11 +2,12 @@
   "outputDirectory": "frontend",
   "rewrites": [
     { "source": "/", "destination": "/pages/index.html" },
-    { "source": "/about", "destination": "/pages/about.html" },
-    { "source": "/services", "destination": "/pages/services.html" },
-    { "source": "/gallery", "destination": "/pages/gallery.html" },
-    { "source": "/packages", "destination": "/pages/packages.html" },
-    { "source": "/contact", "destination": "/pages/contact.html" }
+    { "source": "/index.html", "destination": "/pages/index.html" },
+    { "source": "/about.html", "destination": "/pages/about.html" },
+    { "source": "/services.html", "destination": "/pages/services.html" },
+    { "source": "/gallery.html", "destination": "/pages/gallery.html" },
+    { "source": "/packages.html", "destination": "/pages/packages.html" },
+    { "source": "/contact.html", "destination": "/pages/contact.html" }
   ],
   "headers": [
     {
