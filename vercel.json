@@ -1,7 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "frontend",
-  "framework": "static",
   "functions": {
     "api/**/*.js": {
       "runtime": "nodejs18.x",
