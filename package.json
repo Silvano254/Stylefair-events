@@ -4,10 +4,9 @@
   "description": "Style Fair Events & Decor Hub - Luxury Event Planning Website",
   "main": "backend/api/inquiry.js",
   "scripts": {
-    "start": "vercel dev",
+    "start": "node backend/api/inquiry.js",
     "dev": "vercel dev",
-    "build": "vercel build",
-    "deploy": "vercel"
+    "deploy": "vercel --prod"
   },
   "keywords": [
     "events",
